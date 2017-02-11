@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<packages>
+<package name="com.android.gallery3d.overlay" path="product/overlay/Gallery2Overlay" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.qeexo.smartshot" path="product/app/HwSmartShot" ss="E0C4D5B3E48326D9DF234E5BEC656FBA48017440EBA14E643CED38FDA2CEA575" version="50000001"/>
+<package name="com.huawei.hwasm" path="product/app/HwFidoAsm" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.huawei.fido.uafclient" path="product/app/HwFidoClient" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.android.frameworkres.overlay" path="product/overlay" ss="0C872997D85FCB7CBE94FFB700007C2A9179E699925FF74040D9F2C4B185CE64" version="1"/>
+<package name="com.huawei.vrservice" path="product/app/VRService" ss="DF79FF126ED7DE580E83EFFB40A14AF59B3DB81A7ED80FAD1A43033EAB6432C7" version="1"/>
+<package name="com.huawei.camera" path="data/hw_init/product/app/HwCamera2" ss="41649980F3296FC150F9D82B4B9796D35A9B385B0B822D0AA272B2DBD63EF55A" version="40101"/>
+</packages>

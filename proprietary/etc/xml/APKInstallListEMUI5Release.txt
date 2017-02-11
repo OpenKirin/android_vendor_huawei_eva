@@ -1,0 +1,14 @@
+/product/app/HwFidoAsm/HwFidoAsm.apk
+
+/product/app/HwFidoClient/HwFidoClient.apk
+
+/product/app/HwSmartShot/HwSmartShot.apk,priv
+
+/product/app/HwRemoteController/HwRemoteController.apk
+/data/hw_init/product/app/FindMyPhone/FindMyPhone.apk
+
+/data/hw_init/product/app/HwCamera2/HwCamera2.apk,priv
+
+/product/app/VRService/VRService.apk
+
+/product/app/SkyTone/SkyTone.apk

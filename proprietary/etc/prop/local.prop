@@ -1,0 +1,222 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+ro.config.fm_type=libbcmfm_if
+
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#DTS2016072603065 lidandi/lwx378724 20160728 bigin
+ro.com.android.dataroaming=false
+#DTS2016072603065 lidandi/lwx378724 20160728 end
+persist.radio.apm_sim_not_pwdn=1
+persist.sys.dualcards=true
+ril.hw_modem0.rssi=-1
+ril.hw_modem1.rssi=-1
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+ro.config.hw_ecclist_nocard=1+110,6+119,8+118
+ro.config.hw_ecclist_withcard=1+110,6+119,8+118
+ro.config.hw_globalEcc=true
+ro.config.hw_useCtrlSocket=true
+ro.config.updatelocation=true
+ro.ril.ecclist=112,911,#911,*911
+ro.check.modem_network=true
+ro.config.ipv4.mtu=1400
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+ro.config.hw_hotswap_on=true
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+
+
+
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+
+###########1.1.MMI END
+
+###########1.2.PROJECT MENU BEGIN
+
+###########1.2.PROJECT MENU END
+
+###########1.3.RUN IN TEST BEGIN
+
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+
+ro.vr.surport=true
+
+ro.config.hw_showTestInfo=true
+
+ro.config.app_big_icon_size=180
+ro.config.launcher_matchcard=0
+
+ro.config.carkitmodenotif=true
+ro.config.hw_sim2airplane=true
+ro.config.support_ca=true
+
+modify_ram_show=true
+ro.config.colorTemperature_K3=true
+ro.config.hw_glovemode_enabled=1
+
+ro.config.hw_gps_power_track=true
+ro.config.hw_smartcardservice=true
+ro.config.hw_support_geofence=true
+ro.config.hw_touchplus_enabled=false
+ro.dual.sim.phone=true
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+
+ro.config.signalplus.tas=true
+ro.config.signalplus.xpass=true
+ro.config.linkplus.roaming=true
+ro.config.linkplus.liveupdate=true
+
+ro.systemui.debug=true
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+
+sys.refresh.dirty=1
+
+#DTS2016092007147 fushengbo wx333857 20160923 delete ro.config.ringtone
+#DTS2016092007147 fushengbo wx333857 20160923 delete ro.config.ringtone2
+#DTS2016090201326 fushengbo/fwx333857 20160902 delete alarm_alert
+ro.config.notification_sound=Bongo.ogg
+
+ro.config.finger_joint=true
+ro.huawei.multiwindow=false
+ro.config.mm_socket_ctrl=1
+#ro.product.locale=zh-CN
+ro.config.marketing_name=HUAWEI P9
+ro.config.colorTemperature_3d=true
+ro.config.hw_wifi_proxy=true
+#DTS2016080809795 ouyangwentao/owx343620 20160809 begin
+ro.config.small_cover_size=_570x1251
+#DTS2016080809795 ouyangwentao/owx343620 20160809 end
+#BEGIN PN: DTS2016110106031 Added by dwx334042, 2016/11/09
+ro.config.hw_privacySpace=false
+#END PN: DTS2016110106031 Added by dwx334042, 2016/11/09
+#DTS2016120702851 xiaodi/wx239746 20161223 begin
+ro.config.hw_cover_brightness=0
+#DTS2016120702851 xiaodi/wx239746 20161223 end
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+audioril.lib=libhuawei-audio-ril.so
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+ro.config.hw_dts=true
+ro.config.hw_media_flags=3
+ro.config.widevine_level3=true
+drm.service.enabled=true
+#DTS2016110310296 zhangyong/wx276325 20161107 begin
+ro.hwcamera.brightness_range=4,178
+#DTS2016110310296 zhangyong/wx276325 20161107 end
+ro.audio.usb.period_us=10000
+ro.hwcamera.BackPanorama720P=true
+#DTS2016112407085 zhangyong/wx276325 20161129 begin
+ro.hwcamera.gps_request_delay=45
+#DTS2016112407085 zhangyong/wx276325 20161129 end
+#DTS2016112502466 zengcheng/00290228 20161128 begin
+ro.hwcamera.SuperNightCapSize=3264x2448
+ro.hwcamera.LightPaintCapSize=3264x2448
+#DTS2016112502466 zengcheng/00290228 20161128 end
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+
+ro.config.incall_notify_mms=true
+#DTS2015121006384 AR0002PAMC c00354464 20151210 begin
+ro.config.huawei_smallwindow=510,234,1080,1485
+#DTS2015121006384 AR0002PAMC c00354464 20151210 end
+#DTS2016090107265 xiaodi/xwx239746 20160901 delete
+ro.product.cucc.rtsplive=true
+#DTS2016082503431 AR00045EBL l00350313 20160825 begin
+ro.product.fingerprintName=HUAWEI-Z100
+#DTS2016082503431 AR00045EBL l00350313 20160825 end
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+ro.com.android.mobiledata=true
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+ro.build.hide.matchers=EVA;eva;hi3650;huawei;mali-t880
+ro.build.hide.replacements=A168;A168;unknown;unknown;unknown;
+ro.build.hide.settings=8;1.8 GHz;2.0GB;11.00 GB;16.00 GB;1920 x 1080;5.1;3.10.30;3.1
+ro.product.manufacturer=HUAWEI
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+#ro.build.display.id=deleted
+#ro.build.version.incremental=deleted
+#ro.build.description=deleted
+#ro.build.fingerprint=deleted
+
+
+ro.product.brand=HUAWEI
+ro.product.device=HWEVA
+ro.product.board=EVA
+ro.product.name=EVA
+ro.build.id=HUAWEIEVA
+ro.product.model=EVA
+# ro.build.product is obsolete; use ro.product.device
+ro.build.product=EVA
+ro.build.hide=false
+# DTS2016090610159 w00221728 20160906 begin
+ro.config.hw_watermark=false
+# DTS2016090610159 w00221728 20160906 end
+#DTS2016111407661 zhuxiaogang zwx354275 2016/11/23 begin
+#delete ro.setupwizard.mode
+#DTS2016111407661 zhuxiaogang zwx354275 2016/11/23 end
+# DTS2016082511309 qwx284555 20160826 begin
+ro.config.limit_lcd_manual=true
+# DTS2016082511309 qwx284555 20160826 end
+# DTS2016110906408 lindawei/00399276 20161109 begin
+ro.sys.fw.bg_apps_limit=36
+ro.sys.fw.empty_app_percent=67
+ro.sys.fw.trim_cache_percent=100
+ro.sys.fw.trim_empty_percent=100
+ro.sys.fw.trim_enable_memory=4294967296
+ro.sys.fw.use_trim_settings=true
+# DTS2016110906408 lindawei/00399276 20161109 end
+
+ro.comp.product_version=Product-EVA 4.0.0.5(0000)

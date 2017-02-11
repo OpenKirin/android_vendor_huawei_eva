@@ -1,0 +1,8 @@
+ro.build.hw_emui_lite.enable=true
+# BEGIN PN:DTS2016051907813,Modified by dwx209861, 2016/05/23
+fw.max_users=1
+fw.show_multiuserui=0
+# END   PN:DTS2016051907813,Modified by dwx209861, 2016/05/23
+# DTS2016060606663 shiyuanchang/00271386 20160704 begin
+ro.config.hw_support_clone_app=false
+# DTS2016060606663 shiyuanchang/00271386 20160704 end

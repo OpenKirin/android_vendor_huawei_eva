@@ -1,0 +1,1 @@
+/data/hw_init/product/app/RemoteControlService/RemoteControlService.apk

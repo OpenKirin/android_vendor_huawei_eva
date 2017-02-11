@@ -1,0 +1,36 @@
+#!/system/bin/sh
+#
+
+mount -o remount,rw /system
+mount -o remount,rw /vendor
+
+if [ -f /system/etc/native_packages.xml.zip ]; then
+
+	mv /system/etc/native_packages.xml.zip /system/etc/native_packages.xml
+	chmod 0644 /system/etc/native_packages.xml
+fi
+
+if [ -f /vendor/lib/hw/hwcomposer.hi3650.so ]; then
+
+	mv /vendor/lib/hw/hwcomposer.hi3650.so /vendor/lib/hw/hwcomposer.hi3650.so.back
+	mv /vendor/lib64/hw/hwcomposer.hi3650.so /vendor/lib64/hw/hwcomposer.hi3650.so.back
+fi
+
+if [ -f /vendor/lib/hw/audio.primary.hisi.so ]; then
+
+	mv /vendor/lib/hw/audio.primary.hisi.so /vendor/lib/hw/audio.primary.hi3650.so
+	chmod 0644 /vendor/lib/hw/audio.primary.hi3650.so
+	mv /vendor/lib64/hw/audio.primary.hisi.so /vendor/lib64/hw/audio.primary.hi3650.so
+	chmod 0644 /vendor/lib64/hw/audio.primary.hi3650.so
+fi
+
+if [ -f /vendor/lib64/hw/gps47531.default.so ]; then
+
+	mv /vendor/lib64/hw/gps47531.default.so /vendor/lib64/hw/gps.default.so
+	chmod 0644 /vendor/lib64/hw/gps.default.so
+
+	./system/bin/reboot
+fi
+
+mount -o remount,ro /system
+mount -o remount,ro /vendor

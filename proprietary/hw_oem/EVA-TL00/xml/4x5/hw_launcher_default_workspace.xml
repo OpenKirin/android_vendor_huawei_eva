@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+    <favorite
+        launcher:packageName="com.huawei.KoBackup"
+        launcher:className="com.huawei.KoBackup.InitializeActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.huawei.trustspace"
+        launcher:className="com.huawei.trustspace.mainscreen.LoadActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.huawei.KoBackup"
+        launcher:className="com.huawei.KoBackup.InitializeActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <favorite
+        launcher:packageName="com.huawei.trustspace"
+        launcher:className="com.huawei.trustspace.mainscreen.LoadActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:spanX="1"
+        launcher:spanY="1" />
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3">
+        <favorite
+            launcher:packageName="com.huawei.android.totemweather"
+            launcher:className="com.huawei.android.totemweather.WeatherHome" />
+        <favorite
+            launcher:packageName="com.huawei.hidisk"
+            launcher:className="com.huawei.hidisk.filemanager.FileManager" />
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator" />
+        <favorite
+            launcher:packageName="com.huawei.android.remotecontroller"
+            launcher:className="com.huawei.android.remotecontroller.StartActivity" />
+        <favorite
+            launcher:packageName="com.huawei.vassistant"
+            launcher:className="com.huawei.vassistant.ui.VAssistantActivity" />
+        <favorite
+            launcher:packageName="com.huawei.vdrive"
+            launcher:className="com.huawei.vdrive.ui.VDriveActivity" />
+        <favorite
+            launcher:packageName="com.huawei.android.FMRadio"
+            launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity" />
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder" />
+        <favorite
+            launcher:packageName="com.android.systemui"
+            launcher:className="com.android.systemui.flashlight.FlashlightActivity" />
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror" />
+        <favorite
+            launcher:packageName="com.huawei.compass"
+            launcher:className="com.huawei.compass.MainActivity" />
+        <favorite
+            launcher:packageName="com.huawei.android.findmyphone"
+            launcher:className="com.huawei.android.findmyphone.ui.FindMyPhoneActivity" />
+        <favorite
+            launcher:packageName="com.android.documentsui"
+            launcher:className="com.android.documentsui.LauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity" />
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2" />
+    </folder>
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:appid="0"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3">
+        <favorite
+            launcher:packageName="cn.wps.moffice_eng"
+            launcher:className="cn.wps.moffice.documentmanager.PreStartActivity"/>
+        <favorite
+            launcher:packageName="com.huawei.portal"
+            launcher:className="com.huawei.portal.MobilePortal"/>
+        <favorite
+            launcher:packageName="cn.cj.pe"
+            launcher:className="com.mail139.about.LaunchActivity"/>
+        <favorite
+            launcher:packageName="com.qihoo.browser"
+            launcher:className="com.qihoo.browser.activity.SplashActivity"/>
+        <favorite
+            launcher:packageName="com.sankuai.meituan"
+            launcher:className="com.sankuai.meituan.activity.Welcome"/>
+        <favorite
+            launcher:packageName="com.baidu.searchbox"
+            launcher:className="com.baidu.searchbox.SplashActivity"/>
+        <favorite
+            launcher:packageName="com.iflytek.inputmethod"
+            launcher:className="com.iflytek.inputmethod.LauncherActivity"/>
+        <favorite
+            launcher:packageName="com.aspire.mm"
+            launcher:className="com.aspire.mm.app.HotSaleActivity"/>
+    </folder>
+</favorites>
