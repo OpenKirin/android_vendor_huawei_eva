@@ -1,4 +1,7 @@
-
+#DTS2016102706483 m00345783  20161027 begin
+cdma.dormancy.mode=1
+cdma.dormancy.screen=3
+#DTS2016102706483 m00345783  20161027 end
 gsm.fastdormancy.mode=3
 ro.product.locale.language=zh
 ro.product.locale.region=CN

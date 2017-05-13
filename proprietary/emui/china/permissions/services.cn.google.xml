@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- DTS2016072711395 cuiqingyu 00220170 20160923 create  . -->
-<!-- This is the standard set of features for devices that support the CN GMSCore. -->
-<permissions>
-	<feature name="cn.google.services" />
-</permissions>

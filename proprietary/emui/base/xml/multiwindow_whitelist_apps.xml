@@ -16,7 +16,6 @@
     <mw_app package_name="com.sankuai.meituan" />
     <mw_app package_name="com.sankuai.meituan.takeoutnew" />
     <mw_app package_name="com.tencent.news" />
-    <mw_app package_name="com.qzone" />
     <mw_app package_name="com.qq.reader" />
     <mw_app package_name="com.qq.qcloud" />
     <mw_app package_name="com.tencent.map" />
@@ -66,7 +65,6 @@
     <mw_app package_name="com.kugou.android" />
     <mw_app package_name="com.lphtsccft" />
     <mw_app package_name="com.mapbar.android.trybuynavi" />
-    <mw_app package_name="com.mt.mtxx.mtxx" />
     <mw_app package_name="com.mymoney" />
     <mw_app package_name="com.smzdm.client.android" />
     <mw_app package_name="com.taobao.fleamarket" />

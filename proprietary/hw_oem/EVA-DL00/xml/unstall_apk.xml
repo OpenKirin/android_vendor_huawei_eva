@@ -2,7 +2,6 @@
 	<tag>
 		<apk>
 			/system/delapp/HwProfileSwitcher.apk
-			/system/app/ims.apk
 			/system/app/HwFileManager.apk;
 			/system/app/UEInfoCheck.apk;
 			/system/app/HwAllBackup_Local.apk;

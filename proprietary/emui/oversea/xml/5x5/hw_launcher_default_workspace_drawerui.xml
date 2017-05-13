@@ -313,8 +313,8 @@
             launcher:icontype="0"
             launcher:translatetitle = "1"/>
         <favorite
-            launcher:packageName="com.huawei.hicare"
-            launcher:className="com.huawei.hicare.ui.HelpCenterActivity"
+            launcher:packageName="com.huawei.phoneservice"
+            launcher:className="com.huawei.phoneservice.ui.HelpCenterActivity"
             launcher:shortcut="true"
             launcher:icontype="0"
             launcher:translatetitle = "1"/>

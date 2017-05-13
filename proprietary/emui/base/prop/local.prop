@@ -44,11 +44,14 @@ ro.config.enable_iaware=true
 # DTS2016092003327 xugang 00350031 perfhub fling switch begin
 ro.config.enable_perfhub_fling=false
 # DTS2016092003327 xugang 00350031 perfhub fling switch end
+#BEGIN PN: DTS2016092708075, Added by w00364765,2016/10/08
+ro.control.sleeplog=true
+#END PN: DTS2016092708075, Added by w00364765,2016/10/08
 
-ro.config.hw_em_solution_ver=B060
+ro.config.hw_em_solution_ver=B080
 
-ro.comp.system_version=System 5.0.0.48(0CJD)
+ro.comp.system_version=System 5.0.0.57(0HDV)
 
-ro.confg.hw_systemversion=System 5.0.0.48(0CJD)
+ro.confg.hw_systemversion=System 5.0.0.57(0HDV)
 
-ro.build.diaplay.id=System 5.0.0.48(0CJD)
+ro.build.diaplay.id=System 5.0.0.57(0HDV)

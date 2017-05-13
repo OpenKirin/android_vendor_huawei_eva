@@ -24,5 +24,6 @@
   <string hw_theme_support_hwid="true" /> 
   <string hw_theme_support_pay="true" />
   <integer is_show_google="0"/>
+  <string enable_get_location="com.huawei.parentcontrol"/>
 </resources>
 

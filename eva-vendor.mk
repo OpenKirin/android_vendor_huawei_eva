@@ -13,6 +13,20 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+    native_packages.xml
+
+PRODUCT_PACKAGES += \
+    27c11b57-14ff-48bf-abbe-92e345092278.sec \
+    hdbd \
+    hw_healthd \
+    hw_ueventd \
+    kmsgcat \
+    logctl_service \
+    ntfs-3gd \
+    oeminfo_nvm_server \
+    teecd
+
+PRODUCT_PACKAGES += \
     GeofenceLocation
 
 $(call inherit-product, vendor/huawei/eva/eva-vendor-blobs.mk)

@@ -44,6 +44,8 @@
     <integer multiwindow_mode_settings="1" reset="true" />
     <string cloud_per_dwonload_time="604800000"/>
     <integer settings.system.screen_brightness_mode="1"/>
-    <integer settings.secure.show_ime_with_hard_keyboard="1" />
+    <!-- DTS2016110709643 duanlian/WX334042 2017/01/03 begin -->
+    <integer settings.secure.show_ime_with_hard_keyboard="1" reset="true"/>
+    <!-- DTS2016110709643 duanlian/WX334042 2017/01/03 end -->
 </resources>
 

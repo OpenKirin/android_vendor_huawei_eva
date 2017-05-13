@@ -29,6 +29,7 @@
     <integer is_show_google="0"/>
     <integer settings.global.mobile_data="1"/>
     <integer ca_settings_on="1"/>
+    <integer hw_volte_user_switch="1"/>
     <string custom_certify_picture="/data/hw_init/product/media/China_AL00.png" />
     <!--******************************** 3.BASEAPP TEAM END -->
     <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->

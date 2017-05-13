@@ -215,8 +215,8 @@
             launcher:packageName="com.android.hwmirror"
             launcher:className="com.android.hwmirror.Mirror" />
         <favorite
-            launcher:packageName="com.huawei.hicare"
-            launcher:className="com.huawei.hicare.ui.HelpCenterActivity"/>
+            launcher:packageName="com.huawei.phoneservice"
+            launcher:className="com.huawei.phoneservice.ui.HelpCenterActivity"/>
         <favorite
             launcher:packageName="com.huawei.compass"
             launcher:className="com.huawei.compass.MainActivity" />

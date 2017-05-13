@@ -44,7 +44,7 @@
             launcher:className="com.huawei.compass.MainActivity" />
         <favorite
             launcher:packageName="com.huawei.KoBackup"
-            launcher:className="com.huawei.KoBackup.InitializeActivity"/>
+            launcher:className="com.huawei.KoBackup.InitializeActivity" />
         <favorite
             launcher:packageName="com.huawei.android.findmyphone"
             launcher:className="com.huawei.android.findmyphone.ui.FindMyPhoneActivity" />
