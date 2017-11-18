@@ -190,6 +190,12 @@
             launcher:packageName="com.huawei.vdrive"
             launcher:className="com.huawei.vdrive.ui.VDriveActivity" />
         <favorite
+            launcher:packageName="com.huawei.parentcontrol"
+            launcher:className="com.huawei.parentcontrol.ui.activity.HomeActivity" 
+            launcher:shortcut="true"
+            launcher:icontype="0"
+            launcher:translatetitle = "1"/>
+        <favorite
             launcher:packageName="com.huawei.android.FMRadio"
             launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity" />
         <favorite

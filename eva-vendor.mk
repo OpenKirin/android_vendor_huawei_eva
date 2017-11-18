@@ -20,9 +20,6 @@ PRODUCT_PACKAGES += \
     hdbd \
     hw_healthd \
     hw_ueventd \
-    kmsgcat \
-    logctl_service \
-    ntfs-3gd \
     oeminfo_nvm_server \
     teecd
 

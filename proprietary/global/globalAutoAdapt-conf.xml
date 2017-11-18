@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：Global_parameters V3.503
-SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数。 -->
+<!-- 当前版本号：Global_parameters V3.567
+SE13_version 20170918
+目前包含 217个国家和地区，1334套运营商参数。 -->
 <numMatchs version="1">
   <numMatch name="etisalat"
     mcc="602"
@@ -892,6 +893,11 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mnc="04"
     num_match="8"
   />
+  <numMatch name="Digi HU"
+    mcc="216"
+    mnc="03"
+    num_match="9"
+  />
   <numMatch name="MTN"
     mcc="655"
     mnc="10"
@@ -1416,6 +1422,11 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mnc="05"
     num_match="8"
   />
+  <numMatch name="GT 4G"
+    mcc="466"
+    mnc="05"
+    num_match="8"
+  />
   <numMatch name="Telenor"
     mcc="414"
     mnc="06"
@@ -1480,6 +1491,8 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="505"
     mnc="01"
     num_match="8"
+    max_message_size="614400"
+    sms_to_mms_textthreshold="11"
   />
   <numMatch name="Optus"
     mcc="505"
@@ -2270,6 +2283,8 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="208"
     mnc="25"
     num_match="9"
+    max_message_size="614400"
+    sms_to_mms_textthreshold="5"
   />
   <numMatch name="du"
     mcc="424"
@@ -3025,7 +3040,7 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="334"
     mnc="050"
     num_match="7"
-    max_message_size="307200"
+    max_message_size="614400"
     sms_to_mms_textthreshold="11"
   />
   <numMatch name="Movistar"
@@ -3379,7 +3394,7 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="334"
     mnc="090"
     num_match="7"
-    max_message_size="307200"
+    max_message_size="614400"
     sms_to_mms_textthreshold="11"
   />
   <numMatch name="Tigo"
@@ -3680,7 +3695,7 @@ SE13_version 20161114目前包含 217个国家和地区，1334套运营商参数
     mcc="334"
     mnc="05"
     num_match="7"
-    max_message_size="307200"
+    max_message_size="614400"
     sms_to_mms_textthreshold="11"
   />
   <numMatch name="CBL"

@@ -3,7 +3,7 @@
 <!-- iawareversion's value must be String like "1.0", configversion's value must be int like "2" -->
 <!-- upon the item iaware, no allowed add any item -->
 <!-- cloudupdate will use this attr enable 1 means open iaware 0 means close iaware -->
-<iaware enable="1" iawareversion="1.0" configversion="12">
+<iaware enable="1" iawareversion="1.0" configversion="13">
     <feature name="Memory">
         <config name="MemoryConstant" >
             <item ramsize="2048">
@@ -164,6 +164,17 @@
                 <packageName>com.android.contacts</packageName>
                 <packageName>com.android.mms</packageName>
                 <packageName>com.huawei.android.launcher</packageName>
+            </item>
+        </config>
+    </feature>
+
+    <feature name="iAwareSDK">
+        <config name="1">
+            <item resId="3000">
+                <interval>1000</interval>
+                <minuteCount>60</minuteCount>
+                <hourCount>2000</hourCount>
+                <datasize>500</datasize>
             </item>
         </config>
     </feature>
